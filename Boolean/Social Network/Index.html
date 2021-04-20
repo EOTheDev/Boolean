@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrazione SN</title>
+</head>
+<body>
+    <h1>Registrazione sito internet</h1>
+    
+    <!-- formulario dati--> 
+    <form action="Index.html">
+        <!-- dati obbligatori-->
+        <div>
+            <input type="text" name="name" placeholder="Inserisci il tuo nome" required minlength="2" maxlength="10">
+        </div>
+        <div>
+            <input type="text" name="lastname" placeholder="Inserisci il tuo cognome" required min length="2" maxlength="10">
+        </div>
+        <div>
+            <input type="email" name="email" placeholder="Inserisci email" required>
+        </div>
+        <!-- dati aggiuntivi-->
+        <div>
+            <select name="regioni">
+                <option value="Calabria">Calabria</option>
+                <option value="Lazio">Lazio</option>
+                <option value="Piemonte">Piemonte</option>
+            </select>
+        </div>
+        <div>
+            <input type="radio" name="eta" value="young"> less than 18  yo
+            <input type="radio" name="eta" value="mature"> more than 18 yo
+        </div>
+        <div>
+            <input type="checkbox" name="Agreement" value="Condizioni" required> Condizioni
+        </div>
+        <div>
+            <input type="submit" value="Invia">
+        </div>
+    </form>
+</body>
+</html>
