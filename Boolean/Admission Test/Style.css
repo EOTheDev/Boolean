@@ -1,0 +1,52 @@
+*{
+    font-family: 'Montserrat', sans-serif;;
+}
+
+body{
+    background-image: url(background.jpg);
+    background-size: contain;
+    text-align: center;
+    padding-top: 2%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 5%;
+}
+/* questa è la scatola nera*/
+body>div{
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10%;
+    border-radius: 3%;
+
+}
+header h1{
+    color: #00DD00;
+
+}
+nav{
+    background-color: #00DD00;
+    padding: 13px;
+    border-radius: 4px;
+}
+main{
+    color: white;
+}
+main>div{
+    text-align: left;
+}
+.colorbar{
+    height: 24px;
+    border-radius: 4px;
+    
+}
+#yellow{
+    background-color: #F5B453;
+    width:33%;    
+}
+#red{
+    background-color: #BE4141;
+    width:10%;    
+}
+#green{
+    background-color: #1EC31E;
+    width:50%;    
+}
