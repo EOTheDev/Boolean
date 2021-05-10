@@ -1,0 +1,31 @@
+body{
+       
+}
+main{
+    position: relative;
+    background-color: blue;
+    width: 900px;
+    height: 900px;
+}
+main>div{
+    display: inline-block;
+    position: relative;
+    background-color: green;
+    width: 20%;
+    height: 20%;
+}
+div>div{
+    background-color: red;
+    width: 25%;
+    height: 25%;
+}
+
+#Left50pc{
+    position: relative;
+    left: 12.5%;
+}
+#RB{
+    position: absolute;
+    right: 0%;
+    bottom: 0%;
+}
